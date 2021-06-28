@@ -544,3 +544,73 @@ Internal working of hashmap
 [2:32 PM, 6/21/2021] Pavithra Cts Br: Auto wire
 Ddl dml
 
+
+
+
+
+
+hashtable vs hashmap
+
+hashtable
+	legacy class	
+	synchronized
+
+vector			arraylist			index
+	synchronized
+
+
+sync
+	synchronized
+	synchronized
+		are thread safe			no 2 threads access at a time
+
+thread safe variable?
+	volatile int age;
+
+	volatile variables does not allow threads to keep cache data. 
+	every time, the thread access the var from main memory
+
+
+
+volatile
+transient		non persistent			JPA hibernate
+	IO streams this value will not be stored in stream (file is an example for stream)
+
+Serializable interface
+	an object cannot be stored in stream /file unless the class implements serializable
+
+
+BufferedInputStream		binary/byte
+BufferedReader			character
+
+
+
+InputStream		OutputStream			BYTE/BINARY
+Reader			Writer				character
+
+
+SQL
+having
+where
+
+
+
+inner and outer join
+
+correlated sub query
+
+CSS selectors
+	# for id
+	. for class
+	element selector
+
+
+document.getElementById("txt1").value;
+
+type of stylesheets
+
+internal
+external
+inline
+
+
